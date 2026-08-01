@@ -55,7 +55,7 @@ Power BI (modelado semántico + DAX + dashboard)
 
 ## Modelo dimensional
 
-![Diagrama del modelo dimensional](docs/imagenes/modelo_estrella.jpeg)
+![Diagrama del modelo dimensional](docs/imagenes/Modelo_Estrella.jpeg)
 
 Opte por usar **Fact Constellation** (dos tablas de hechos a distinto grano, compartiendo dimensiones) en lugar de un único modelo estrella, por una razón concreta descubierta durante el análisis exploratorio. **El grano de "venta" (por ítem de pedido) y el grano de "pago" (por transacción de pago) no coinciden**, ya que un pedido puede tener varios ítems y, por separado, varias transacciones de pago (ej. tarjeta en cuotas + voucher), sin relación 1 a 1 entre ambos.
 
